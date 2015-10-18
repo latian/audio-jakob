@@ -1,0 +1,1 @@
+ffmpeg -framerate 25 -i img/%06d.png -i toccata.wav -vcodec libx264 -acodec aac -strict experimental -r 25 -pix_fmt yuv420p out.mp4
